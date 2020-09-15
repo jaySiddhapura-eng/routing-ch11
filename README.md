@@ -1,5 +1,17 @@
 # Routing
 
+## Table of Contents  
+* [Introduction](#Introduction)<br>
+* [Creating and Registering The Route](#Creating-and-Registering-The-Route)<br>
+* [Providing Tab Navigation](#Providing-Tab-Navigation)<br>
+* [Programmatically Navigate](#Programmatically-Navigate)<br>
+* [Dynamic Section in Route](#Dynamic-Section-in-Route)<br>
+* [Passing Query Parameters and Fragments Non Programmatically](#Passing-Query-Parameters-and-Fragments-Non-Programmatically)<br>
+* [Adding Query Parameters Programmatically](#Adding-Query-Parameters-Programmatically)<br>
+* [Retrieving Query Parameters in Typescript File](#Retrieving-Query-Parameters-in-Typescript-File)<br>
+* [Child Routing  or Nested Routing](#Child-Routing-or-Nested-Routing)<br>
+* [Wildcard Routing](#Wildcard-Routing)<br>
+
 ## Introduction
 
 1. Routing allow us to navigate between different components in view
@@ -7,7 +19,7 @@
 3. Technically we are on the same page of the application, and angular render the different components according to the given component locations
 4. Browser does not reload the entire app while navigating across different component, because on browser level, only index.html page is loaded
 
-## Creating and registering the route
+## Creating and Registering The Route
 
 1. Sample component used in this tutorial
 
@@ -118,7 +130,7 @@
    </ul>
    ~~~
 
-## Programmatically navigate
+## Programmatically Navigate
 
 1. Create a button, by clicking this button user should navigate to the ```ServersComponent```
 
@@ -140,7 +152,7 @@
    }
    ~~~
 
-## Dynamic section in Route
+## Dynamic Section in Route
 
 1. User can also add the dynamic section in the router URL
 
@@ -205,7 +217,7 @@
 
 10. This can be achieve by calling ```unsubscribe``` method in ngDestroy life cycle hook of the component
 
-## Passing Query parameters and Fragments [non programmatically]
+## Passing Query Parameters and Fragments Non Programmatically
 
 1. Query parameters starts with ```?``` and multiple queries are separated by ```&``` sign
 
@@ -226,7 +238,7 @@
    and this url request will bring us to the ServersComponent
    ~~~
 
-## Adding Query parameters [programmatically]
+## Adding Query Parameters Programmatically
 
 ~~~html
 <!--home.component.html-->
@@ -244,7 +256,7 @@ onLoadServer(id:number){
 }
 ~~~
 
-## Retrieving query parameters in .ts
+## Retrieving Query Parameters in Typescript File
 
 ~~~typescript
 // target component on which route is set : edit-server.component.ts
@@ -278,7 +290,7 @@ ngOnInit(){
 }
 ~~~
 
-## Child Routing (Nested Routing)
+## Child Routing  or Nested Routing
 
 1.  conventional way of declaring the child component using path
 
