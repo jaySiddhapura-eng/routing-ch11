@@ -9,7 +9,7 @@
 * [Passing Query Parameters and Fragments Non Programmatically](#Passing-Query-Parameters-and-Fragments-Non-Programmatically)<br>
 * [Adding Query Parameters Programmatically](#Adding-Query-Parameters-Programmatically)<br>
 * [Retrieving Query Parameters in Typescript File](#Retrieving-Query-Parameters-in-Typescript-File)<br>
-* [Child Routing  or Nested Routing](#Child-Routing-or-Nested-Routing)<br>
+* [Child Routing or Nested Routing](#Child-Routing-or-Nested-Routing)<br>
 * [Wildcard Routing](#Wildcard-Routing)<br>
 
 ## Introduction
@@ -290,7 +290,7 @@ ngOnInit(){
 }
 ~~~
 
-## Child Routing  or Nested Routing
+## Child Routing or Nested Routing
 
 1.  conventional way of declaring the child component using path
 
