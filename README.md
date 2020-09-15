@@ -14,12 +14,16 @@
 
 ## Introduction
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 1. Routing allow us to navigate between different components in view
 2. Eg. navigate between home, authentication, and other tab
 3. Technically we are on the same page of the application, and angular render the different components according to the given component locations
 4. Browser does not reload the entire app while navigating across different component, because on browser level, only index.html page is loaded
 
 ## Creating and Registering The Route
+
+## 	[:arrow_up:](#Table-of-Contents )<br>
 
 1. Sample component used in this tutorial
 
@@ -80,6 +84,8 @@
 
 ## Providing Tab Navigation
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 1. Above implemented routes will be reachable only by URL so far
 
 2. By providing tabs, user can navigate among components by clicking the respective tab 
@@ -132,6 +138,8 @@
 
 ## Programmatically Navigate
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 1. Create a button, by clicking this button user should navigate to the ```ServersComponent```
 
    ~~~html
@@ -153,6 +161,8 @@
    ~~~
 
 ## Dynamic Section in Route
+
+## 	[:arrow_up:](#Table-of-Contents )<br>
 
 1. User can also add the dynamic section in the router URL
 
@@ -219,6 +229,8 @@
 
 ## Passing Query Parameters and Fragments Non Programmatically
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 1. Query parameters starts with ```?``` and multiple queries are separated by ```&``` sign
 
 2. Example query: ```?mode=editing&?server=fixed```
@@ -240,6 +252,8 @@
 
 ## Adding Query Parameters Programmatically
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 ~~~html
 <!--home.component.html-->
 <button
@@ -257,6 +271,8 @@ onLoadServer(id:number){
 ~~~
 
 ## Retrieving Query Parameters in Typescript File
+
+## 	[:arrow_up:](#Table-of-Contents )<br>
 
 ~~~typescript
 // target component on which route is set : edit-server.component.ts
@@ -292,6 +308,8 @@ ngOnInit(){
 
 ## Child Routing or Nested Routing
 
+## 	[:arrow_up:](#Table-of-Contents )<br>
+
 1.  conventional way of declaring the child component using path
 
    ~~~typescript
@@ -315,6 +333,8 @@ ngOnInit(){
    ~~~
 
 ## Wildcard Routing
+
+## 	[:arrow_up:](#Table-of-Contents )<br>
 
 1. If requested router path does not covered by any component, then application will crash
 
